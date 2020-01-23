@@ -16,6 +16,7 @@ pypsrp is a Python client for the PowerShell Remoting Protocol (PSRP) and Window
 	
 %package     -n python3-pypsrp
 Summary:        %summary
+Requires:       python3-ntlm-auth
 %description -n python3-pypsrp %_description
 
 %prep
